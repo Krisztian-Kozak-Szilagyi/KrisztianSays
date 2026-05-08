@@ -84,7 +84,7 @@ $(".playing-field").click(function() {
         isGameStarted = false;
         playerStep = 0;
         gamePattern = [];
-        $("h1").html("You lost, you idiot sandwhich! <br> Press a key and try again!");
+        $("h1").html("You lost, you idiot sandwhich! <br> Press 'space' and try again!");
     }
     console.log(playerChoice);
 });

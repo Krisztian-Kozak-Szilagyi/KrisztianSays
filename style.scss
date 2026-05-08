@@ -1,0 +1,63 @@
+$background-color: #241E3F;
+$text-color: #959279;
+$main-font: "Silkscreen", sans-serif;
+$button1-color: #D6CB54;
+$button2-color: #D76B53;
+$button3-color: #54D6A7;
+$button4-color: #1378d1;
+
+html {
+    background-color: $background-color;
+    font-family: $main-font;
+    color: $text-color;
+    cursor: url('assets/arrow.png') 0 0, auto;
+}
+
+section {
+    text-align: center;
+    margin-top: 4rem;
+    h1 {
+        font-size: 3rem;
+    }
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3.5rem auto 0;
+        gap: 2rem;
+        max-width: 750px;
+        .playing-field {
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+        border: 15px solid black;
+        cursor: url('assets/hand.png') 0 0, auto;
+            &:active {
+                filter: brightness(1.5);
+            }
+        }
+        .button1 {
+            background-color: $button1-color;
+        }
+        .button2 {
+            background-color: $button2-color;
+        }
+        .button3 {
+            background-color: $button3-color;
+        }
+        .button4 {
+            background-color: $button4-color;
+        }
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .main-container {
+        max-width: 600px !important;
+        .playing-field {
+        width: 150px !important;
+        height: 150px !important;
+        }
+    }
+
+}

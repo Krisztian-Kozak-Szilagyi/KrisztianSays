@@ -1,0 +1,54 @@
+html {
+  background-color: #241E3F;
+  font-family: "Silkscreen", sans-serif;
+  color: #959279;
+  cursor: url("assets/arrow.png") 0 0, auto;
+}
+
+section {
+  text-align: center;
+  margin-top: 4rem;
+}
+section h1 {
+  font-size: 3rem;
+}
+section .main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3.5rem auto 0;
+  gap: 2rem;
+  max-width: 750px;
+}
+section .main-container .playing-field {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  border: 15px solid black;
+  cursor: url("assets/hand.png") 0 0, auto;
+}
+section .main-container .playing-field:active {
+  filter: brightness(1.5);
+}
+section .main-container .button1 {
+  background-color: #D6CB54;
+}
+section .main-container .button2 {
+  background-color: #D76B53;
+}
+section .main-container .button3 {
+  background-color: #54D6A7;
+}
+section .main-container .button4 {
+  background-color: #1378d1;
+}
+
+@media screen and (max-width: 780px) {
+  .main-container {
+    max-width: 600px !important;
+  }
+  .main-container .playing-field {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

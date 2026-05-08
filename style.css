@@ -9,6 +9,12 @@ section {
   text-align: center;
   margin-top: 4rem;
 }
+section p {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+  font-size: 1.5rem;
+}
 section h1 {
   font-size: 3rem;
 }

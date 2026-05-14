@@ -1,3 +1,5 @@
+// Should be modernized
+
 var gameLvl = 1;
 let isGameStarted = false;
 var gamePattern = [];

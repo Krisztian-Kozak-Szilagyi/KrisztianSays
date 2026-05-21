@@ -1,5 +1,3 @@
-// Should be redone from scratch
-
 var gameLvl = 1;
 let isGameStarted = false;
 var gamePattern = [];

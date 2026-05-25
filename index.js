@@ -17,7 +17,6 @@ $(document).keypress(function() {
     startGame();
 });
 
-// Game is running
 function startGame() {
     gamePatternGenerator = Math.floor((Math.random() * 4) + 1);
     gamePattern.push(gamePatternGenerator);

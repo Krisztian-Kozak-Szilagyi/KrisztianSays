@@ -6,7 +6,6 @@ var playerChoice;
 var gamePatternGenerator = 0;
 var highestScore = gameLvl;
 
-// Before game starts
 $(document).keypress(function() {
     if (isGameStarted == true) {
         return;

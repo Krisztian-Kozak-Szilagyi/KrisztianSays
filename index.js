@@ -61,7 +61,6 @@ function startGame() {
     console.log(gamePattern);
 }
 
-// Read player action
 $(".playing-field").click(function() {
     playerChoice = $(this).data("number");
     if (playerChoice === gamePattern[playerStep]) {
